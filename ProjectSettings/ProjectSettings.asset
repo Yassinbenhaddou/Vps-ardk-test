@@ -599,8 +599,8 @@ PlayerSettings:
   enableInternalProfiler: 0
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 0
-  cameraUsageDescription: 
-  locationUsageDescription: 
+  cameraUsageDescription: This Application will use the camera for Augmented Reality
+  locationUsageDescription: This Application will use the Location for VPS
   microphoneUsageDescription: 
   bluetoothUsageDescription: 
   switchNMETAOverride: 
@@ -854,7 +854,7 @@ PlayerSettings:
   allowUnsafeCode: 0
   useDeterministicCompilation: 1
   enableRoslynAnalyzers: 1
-  selectedPlatform: 2
+  selectedPlatform: 3
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
   gcIncremental: 0
