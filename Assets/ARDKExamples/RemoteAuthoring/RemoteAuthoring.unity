@@ -732,13 +732,9 @@ MonoBehaviour:
       Payload: ChQIp6vo/KLk1KcbELbd+OKVrMHtLhjfhofNipD9AioyChYI8OSNu7qe7qK+ARCX77KtlYvhw9cBEhMKChV3vq8/HZZDKz8SBSUAAIA/HQAAgD8=
     - Name: yeti Anchor
       Payload: ChUIo++vl56exKNYEK2dsZyysLfcwQEYhKibzYqQ/QIqNwoWCPDkjbu6nu6ivgEQl++yrZWL4cPXARIYCg8NGQRmwBXjLq4/HYmhhT8SBSUAAIA/HQAAgD8=
-  - LocationName: Playar office
-    AuthoredAnchors:
-    - Name: 3DFace Anchor
-      Payload: ChYIruzQibrPyKHyARC+o/yA9u34h5MBGKDqnaK0kP0CKjsKFQiwgoq+lcWqpJoBEJydjrrV88STXRIdCg8NzcyUwBVcj8I+HaRwTcASChXY0DE+JVwcfD8dAACAPw==
   - LocationName: Hertoghe
     AuthoredAnchors:
-    - Name: Authored Anchor (Default)
+    - Name: Anchor 3
       Payload: ChUIg/ewse/45qNnELDNiODn1OSQlAEY5uDr6eWQ/QIqPAoWCKfXl4bg6dmn2QEQldmN+NPCz76iARIdCg8NUrgKwRWuR6G/HcP1SEASCg3zBDU/JfIENT8dAACAPw==
     - Name: Anchor
       Payload: ChUI9YDemYSrlKYJEKin8an6qfCB3QEYwuuF6+WQ/QIqPAoWCKfXl4bg6dmn2QEQldmN+NPCz76iARIdCg8Nheu5wBVmZoY/HZqZCcESCg3zBDU/JfIENT8dAACAPw==
@@ -746,6 +742,18 @@ MonoBehaviour:
       Payload: ChYIn7LSi6/mtKKmARC3k+mplJzyu/YBGMPckr2Ckf0CKjwKFgin15eG4OnZp9kBEJXZjfjTws++ogESHQoPDbbz0cAVHVpEPx0OLbbAEgoVwvEWPyXcw04/HQAAgD8=
     - Name: test 2
       Payload: ChUI4ajWouPLgaZ8EIizmpC1jcjdiQEY/83jvYKR/QIqPAoWCKfXl4bg6dmn2QEQldmN+NPCz76iARIdCg8NaryYwBXhelQ/HaAa58ASChWNRAw/JdYmVj8dAACAPw==
+    - Name: distance anchor
+      Payload: ChYI0+z+ubCWnKapARCi45nli/+Yq8ABGOaJ9OLMzP0CKjwKFgin15eG4OnZp9kBEJXZjfjTws++ogESHQoPDexRgEAVMzMzPx3NzKRAEgoVl9AzvyVGNzY/HQAAgD8=
+  - LocationName: Playar office
+    AuthoredAnchors:
+    - Name: 3DFace Anchor
+      Payload: ChYIruzQibrPyKHyARC+o/yA9u34h5MBGKDqnaK0kP0CKjsKFQiwgoq+lcWqpJoBEJydjrrV88STXRIdCg8NzcyUwBVcj8I+HaRwTcASChXY0DE+JVwcfD8dAACAPw==
+    - Name: Anchor
+      Payload: ChUIl8TruK3NsKCTARC2v6eV+fWq2EIYnLyzt9TM/QIqOwoVCLCCir6VxaqkmgEQnJ2OutXzxJNdEh0KDw0AACBAFVyPwr4dzcwCQhIKFRvIBD4lstZ9Px0AAIA/
+  - LocationName: Van Garage tot Valley
+    AuthoredAnchors:
+    - Name: Spider Robot Anchor
+      Payload: ChQInavO6KOb4KchEJHtxLPF/cLudRj0+PXWts39Aio6ChQInK7vou2qzaJhEK/DnMjq3JjaehIdCg8NZmYmPxWkcA1AHdejuEASChVRgn8/JSyNfT0dAACAPw==
   syncPrefabSelection: 1
   keepSynced: 1
   _anchoredContent:
@@ -757,26 +765,38 @@ MonoBehaviour:
     ManifestID: 0
     ContentScale: {x: 1, y: 1, z: 1}
     Content: {fileID: 919132149155446097, guid: 3271eb7db48084f20980ae787507bc06, type: 3}
-  - ReadableName: 3DFace Anchor_Playar office
+  - ReadableName: Anchor 3_Hertoghe
     ManifestID: 1
-    ContentScale: {x: 0.5, y: 0.5, z: 0.5}
-    Content: {fileID: 919132149155446097, guid: 0415ceefe118c4b4c99a846dcb4fe3c6, type: 3}
-  - ReadableName: Authored Anchor (Default)_Hertoghe
-    ManifestID: 2
     ContentScale: {x: 5, y: 5, z: 5}
     Content: {fileID: 919132149155446097, guid: 81b5836625a7a4777bc32c32b5ff1697, type: 3}
   - ReadableName: Anchor_Hertoghe
-    ManifestID: 2
+    ManifestID: 1
     ContentScale: {x: 150, y: 150, z: 150}
     Content: {fileID: 919132149155446097, guid: 4b7b40a16420549a686a2a8ebe313ff9, type: 3}
   - ReadableName: test mini anchor_Hertoghe
-    ManifestID: 2
+    ManifestID: 1
     ContentScale: {x: 1, y: 1, z: 1}
     Content: {fileID: 100146, guid: b117d6f13bf74634eb279ff80bd611fd, type: 3}
   - ReadableName: test 2_Hertoghe
-    ManifestID: 2
+    ManifestID: 1
     ContentScale: {x: 0.5, y: 0.5, z: 0.5}
     Content: {fileID: 7531433366306101547, guid: f35dc5483e1de45529d327b97a416082, type: 3}
+  - ReadableName: distance anchor_Hertoghe
+    ManifestID: 1
+    ContentScale: {x: 10, y: 10, z: 10}
+    Content: {fileID: 100146, guid: b117d6f13bf74634eb279ff80bd611fd, type: 3}
+  - ReadableName: 3DFace Anchor_Playar office
+    ManifestID: 2
+    ContentScale: {x: 0.5, y: 0.5, z: 0.5}
+    Content: {fileID: 919132149155446097, guid: 0415ceefe118c4b4c99a846dcb4fe3c6, type: 3}
+  - ReadableName: Anchor_Playar office
+    ManifestID: 2
+    ContentScale: {x: 5, y: 5, z: 5}
+    Content: {fileID: 919132149155446097, guid: 3271eb7db48084f20980ae787507bc06, type: 3}
+  - ReadableName: Spider Robot Anchor_Van Garage tot Valley
+    ManifestID: 3
+    ContentScale: {x: 1.15, y: 1.15, z: 1.15}
+    Content: {fileID: 7404750231252392691, guid: 8b0598e177f87904fae9064475aba6d7, type: 3}
 --- !u!4 &1829151718
 Transform:
   m_ObjectHideFlags: 0
