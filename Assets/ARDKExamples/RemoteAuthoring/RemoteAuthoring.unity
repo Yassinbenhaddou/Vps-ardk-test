@@ -752,8 +752,8 @@ MonoBehaviour:
       Payload: ChUIl8TruK3NsKCTARC2v6eV+fWq2EIYnLyzt9TM/QIqOwoVCLCCir6VxaqkmgEQnJ2OutXzxJNdEh0KDw0AACBAFVyPwr4dzcwCQhIKFRvIBD4lstZ9Px0AAIA/
   - LocationName: Van Garage tot Valley
     AuthoredAnchors:
-    - Name: Spider Robot Anchor
-      Payload: ChQInavO6KOb4KchEJHtxLPF/cLudRj0+PXWts39Aio6ChQInK7vou2qzaJhEK/DnMjq3JjaehIdCg8NZmYmPxWkcA1AHdejuEASChVRgn8/JSyNfT0dAACAPw==
+    - Name: Spider Anchor
+      Payload: ChQIr5D+5/qGp6EmELfBxZz7lrLQDBiw2I6088/9Aio6ChQInK7vou2qzaJhEK/DnMjq3JjaehIdCg8NMzMzPxVSuA5AHY/CtUASChUAAIA/JS69OzMdAACAPw==
   syncPrefabSelection: 1
   keepSynced: 1
   _anchoredContent:
@@ -793,10 +793,10 @@ MonoBehaviour:
     ManifestID: 2
     ContentScale: {x: 5, y: 5, z: 5}
     Content: {fileID: 919132149155446097, guid: 3271eb7db48084f20980ae787507bc06, type: 3}
-  - ReadableName: Spider Robot Anchor_Van Garage tot Valley
+  - ReadableName: Spider Anchor_Van Garage tot Valley
     ManifestID: 3
-    ContentScale: {x: 1.15, y: 1.15, z: 1.15}
-    Content: {fileID: 7404750231252392691, guid: 8b0598e177f87904fae9064475aba6d7, type: 3}
+    ContentScale: {x: 1, y: 1, z: 1}
+    Content: {fileID: 4177793501719389163, guid: c7a40793973b03a4c89ff68b9ae2dcbc, type: 3}
 --- !u!4 &1829151718
 Transform:
   m_ObjectHideFlags: 0

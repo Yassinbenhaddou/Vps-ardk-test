@@ -24,6 +24,12 @@ namespace Niantic.LightshipHub.Templates
     [HideInInspector]
     public Shader CustomShader;
 
+    //image that would get the same material as the segmentation overlay
+    public Image SegmentationImage;
+
+    //the material to be used for the segmentation overlay
+    public Material SegmentationMaterial;
+
     [Serializable]
     public struct Segmentation
     {
@@ -66,6 +72,8 @@ namespace Niantic.LightshipHub.Templates
         segmentationOverlay.material = mat;
 
         _rawImages[index] = segmentationOverlay;
+
+        
         index++;
       }
 
@@ -85,6 +93,8 @@ namespace Niantic.LightshipHub.Templates
     {
       ISemanticBuffer semanticBuffer = args.Sender.AwarenessBuffer;
 
+      
+
       int index = 0;
       foreach (Segmentation segm in Segmentations)
       {
@@ -96,8 +106,20 @@ namespace Niantic.LightshipHub.Templates
             channel: channel,
             orientation: Screen.orientation
         );
+
+        
+
         _rawImages[index].material.SetTexture("_Mask", _mask[index]);
         _rawImages[index].material.SetTexture("_Tex", segm.Texture);
+
+        //my mask texture to my shader material
+        SegmentationMaterial.SetTexture("CullingMask", _mask[index]);
+        SegmentationImage.material.SetTexture("CullingMask", _mask[index]);
+
+        
+        
+
+        
         index++;
       }
     }

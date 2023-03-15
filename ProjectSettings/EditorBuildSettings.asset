@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/ARDKExamples/RemoteAuthoring/RemoteAuthoring.unity
     guid: b42b611c6ac6c4128ae1090ed0ec3121
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/LightshipHUB/Templates/Contextual Awareness/SemanticSegmentation.unity
+    guid: 0aff823cc9ae0457081e98e712dc5713
   m_configObjects: {}

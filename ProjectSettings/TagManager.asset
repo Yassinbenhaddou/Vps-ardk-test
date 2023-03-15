@@ -10,20 +10,20 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - sky
   - Water
   - UI
+  - water
+  - grass
+  - ground
+  - foliage
+  - 
+  - artificial_ground
+  - building
+  - 
   - 
   - 
   - ARDK_MockWorld
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
   - 
   - 
   - 
