@@ -5,7 +5,7 @@ Shader "maskShader"
    Properties
    {
       _MainTex ("Base (RGB)", 2D) = "white" {}
-      _Mask ("CullingMask", 2D) = "white" {}
+      _CullingMask ("CullingMask", 2D) = "white" {}
       _Cutoff ("Alpha cutoff", Range (0,1)) = 0.1
    }
    SubShader
@@ -17,7 +17,7 @@ Shader "maskShader"
       AlphaTest GEqual [_Cutoff]
       Pass
       {
-         SetTexture [_Mask] {combine texture}
+         SetTexture [_CullingMask] {combine texture}
          SetTexture [_MainTex] {combine texture, previous}
       }
    }
